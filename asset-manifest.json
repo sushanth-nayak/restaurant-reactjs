@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/restaurant-reactjs/static/css/main.4b5a8fe2.css",
+    "main.js": "/restaurant-reactjs/static/js/main.e7caca25.js",
+    "static/media/resto.jpg": "/restaurant-reactjs/static/media/resto.677c70218caecfdcf285.jpg",
+    "static/media/resto2.jpg": "/restaurant-reactjs/static/media/resto2.affdd58e89dec7dd1a08.jpg",
+    "static/media/description.png": "/restaurant-reactjs/static/media/description.fed9bfccb0f94577fd29.png",
+    "static/media/leaf.png": "/restaurant-reactjs/static/media/leaf.fed9bfccb0f94577fd29.png",
+    "static/media/shape-2.png": "/restaurant-reactjs/static/media/shape-2.cebc44909ea94a5e4900.png",
+    "static/media/foodImage.png": "/restaurant-reactjs/static/media/foodImage.fb7184b322b3a0205a96.png",
+    "static/media/footer-main.png": "/restaurant-reactjs/static/media/footer-main.2247125aa929781d0f27.png",
+    "static/media/form-bg.png": "/restaurant-reactjs/static/media/form-bg.0ecf7f70ca3bfbe20bb2.png",
+    "static/media/main-home.png": "/restaurant-reactjs/static/media/main-home.e644ec9803282d524e3d.png",
+    "static/media/line1.png": "/restaurant-reactjs/static/media/line1.e8482f715a61c7abe3e5.png",
+    "static/media/line.png": "/restaurant-reactjs/static/media/line.9aaed6ae95d782412772.png",
+    "static/media/about-bg.png": "/restaurant-reactjs/static/media/about-bg.2231bac6b02eec16bf33.png",
+    "index.html": "/restaurant-reactjs/index.html",
+    "static/media/icon-close.svg": "/restaurant-reactjs/static/media/icon-close.8f411a84191556008226868cfee8be3a.svg",
+    "static/media/icon-hamburger.svg": "/restaurant-reactjs/static/media/icon-hamburger.884a04b6c52cbe1f52c80bc5bca36814.svg",
+    "main.4b5a8fe2.css.map": "/restaurant-reactjs/static/css/main.4b5a8fe2.css.map",
+    "main.e7caca25.js.map": "/restaurant-reactjs/static/js/main.e7caca25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b5a8fe2.css",
+    "static/js/main.e7caca25.js"
+  ]
+}
