@@ -1,0 +1,139 @@
+footer {
+  background-image:url("./images/footer-main.png");
+  object-fit: cover;
+  padding: 5rem 0;
+  margin-top: 10rem;  
+}
+
+.footer-content {
+  display: grid;
+  color: #F2D0A9;
+  grid-template-columns: 24fr 18fr 21fr 21fr;
+  gap:4rem;
+  justify-content: center;
+  text-align: center; 
+}
+
+
+  @media (max-width: 1100px) {
+   .footer-content{ 
+    grid-template-columns: 1fr 1fr ;
+  }
+  }
+
+  @media (max-width: 650px) {
+    .footer-content{ 
+      grid-template-columns: 1fr;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .footer-content{
+      text-align: center;
+    }
+  }
+
+  li a {
+      text-decoration: none;
+      color: #F2D0A9;
+      font-family:'Philosopher', sans-serif;
+     }
+
+     li:nth-child(1) {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      font-family:'Philosopher', sans-serif;
+      color:white;
+     }
+
+      .footer-heading, span {
+        font-weight: 700;
+      }
+
+      li:nth-child(2) {
+        font-size:1.7rem;
+        color: #F2D0A9;
+        margin-bottom: 1rem;
+        font-family:'Philosopher', sans-serif;
+      }
+
+      li:nth-child(3),
+      li:nth-child(4), 
+      li:nth-child(5) {
+        font-size: 1.7rem;
+        font-family:'Philosopher', sans-serif;
+        font-weight: 500;
+        margin-bottom: 1rem;
+      }
+
+      @media (max-width: 650px) {
+        li{
+          text-align: center;
+        }
+      }
+
+      .input{
+        font-family:'Philosopher', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        background-color: transparent;
+        border-width: 1px;
+        border:2px solid #F2D0A9;
+        border-radius: 2px;
+        padding: 6px 30px;
+        outline: none;
+        margin-top: 1rem;
+        color: #F2D0A9;
+      }
+
+      .footer-input input{
+        color: #F2D0A9;
+      }
+  
+        @media (max-width: 1100px) {
+          .input{  
+             width: 100%;
+          }
+        }
+
+        @media (max-width: 650px){
+          .input {
+            width : 60%;
+          }
+        }
+
+     .submit-email {
+      text-decoration: none;
+      color:black ;
+      font-weight: 500;
+      background-color: #F2D0A9;
+      padding: 1rem 0rem;
+      border-radius: 0.3rem;
+      transition: all 0.3s;
+      border: 2px solid #F2D0A9;
+      font-size: 1.4rem;
+      width: fit-content;
+      cursor: pointer;
+      width: 90%;
+      font-family:Arial, Helvetica, sans-serif;
+     }
+    
+      .submit-email:hover {
+        background-color: transparent;
+        color:#F2D0A9;
+      }
+
+      @media (max-width:650px){
+        .submit-email{
+          width : 60%;
+        }
+      }
+
+      .sushanth-nayak{
+        transition: all ease-in-out;
+      }
+
+      .sushanth-nayak:hover{
+        transform: scale(1.02);
+      }

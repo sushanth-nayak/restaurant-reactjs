@@ -1,0 +1,141 @@
+img {
+  max-width: 100%;
+}
+
+.about-header {
+  min-height: 300px;
+  background-image: url("./images/foodImage.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 30px 30px 70px 30px rgba(0, 0, 0, 0.862) inset;
+  border: none;
+}
+
+.line-about{
+  margin-top: 7rem;
+}
+
+.about h1 {
+  font-size: 8rem;
+  color: #F2D0A9;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10rem 0;
+  background-image: url("./images/about-bg.png");
+  background-size: 40%;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+.image1 {
+  background-image: url("./images/resto.jpg");
+}
+
+.image2 {
+  background-image: url("./images/resto2.jpg");
+}
+
+.image1,
+.image2 {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 50%;
+  min-height: 400px;
+}
+
+.about-info {
+  width: 45%;
+}
+
+.about-info h2 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 3rem;
+}
+
+.about-info p{
+  line-height: 2rem;
+}
+
+.about-info button {
+  padding: 1.3rem;
+  width: 250px;
+  background-color: #F2D0A9;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 3px;
+  cursor: pointer;
+  color: black;
+  border: 2px solid #F2D0A9;
+  margin-top: 3rem;
+  font-family:Arial, Helvetica, sans-serif;
+  border-radius: 3px;
+}
+
+.about-info button:hover{
+  background-color: transparent;
+  color: #F2D0A9;
+}
+
+@media screen and (max-width: 700px) {
+  .about-header {
+    margin-top: 4rem;
+  }
+
+  .flex {
+    margin-top: 10rem;
+  }
+
+  .about-info p {
+    text-align: center;
+  }
+
+  .about h1 {
+    font-size: 3rem;
+  }
+
+  .flex {
+    flex-direction: column;
+  }
+
+  .image1,
+  .image2 {
+    width: 100%;
+  }
+
+  .about-info {
+    width: 100%;
+    display: grid;
+    place-items: center;
+  }
+
+  .about-info h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .about-info button {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .about-info h2 {
+    font-size: 2rem;
+  }
+}
+

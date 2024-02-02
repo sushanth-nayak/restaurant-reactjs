@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=DM+Serif+Display&family=Philosopher&display=swap');
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  background-color: rgba(0, 0, 0, 0.862);
+}
+
+body {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+  color: #F2D0A9;
+}
+
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  width: 90%;
+  margin: auto;
+}
+
+
+
